@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: servicio-citas-medicas  # El nombre que aparecerá en Backstage
+  description: Servicio centralizado para la gestión de Historias Clínicas Electrónicas (EHR). Proporciona una API segura para el almacenamiento, consulta y actualización de datos médicos de pacientes, garantizando la   privacidad y cumpliendo con estándares de interoperabilidad clínica.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
